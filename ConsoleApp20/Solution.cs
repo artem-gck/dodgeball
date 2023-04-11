@@ -12,6 +12,8 @@
 
                 for (var i = ((int)direction + 1) % 8; i != (int)direction; i = (i + 1) % 8)
                 {
+                    //Select resolve from 2 methods
+
                     position = CheckDirectionSwitch(array, x, y, (Direction)i);
                     //position = CheckDirectionDictionary(array, x, y, (Direction)i);
 
